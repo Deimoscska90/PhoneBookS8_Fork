@@ -1,26 +1,41 @@
 def greetings():
-    return None
+    print('Вас приветствует телефонный справочник')
+
 
 def menu():
-    1
-    2
-    3
-    4
-    5
-    6
+    print(
+        '1 - Просмотр контактов\n'
+        '2 - Добавление контактов\n'
+        '3 - Поиск контактов в справочнике\n'
+        '4 - Удаление контактов\n'
+        '5 - Изменение контактов\n'
+        '6 - Выход из справочника'
+    )
 
 
 def show_contacts(date):
-    return None
+    print('ФИО: \n'
+          'Номер телефона: '
+          )
+
 
 def find_contact(res):
-    return None
+    print('ФИО: \n'
+          'Номер телефона: '
+          )
+
 
 def del_contact(res):
-    return None
+    print('Контакт удален.')
+
 
 def change_contact(res):
-    return None
+    print('Данные контакта изменены.')
+
 
 def error():
-    return None
+    print('Вы ввели некорректную цифру.')
+
+
+if __name__ == '__main__':
+    menu()
